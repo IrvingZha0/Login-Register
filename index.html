@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register & Signin Form</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<h1> Register & Signin Form </h1>
+<div class="main-content">
+	<div class="sap_tabs">
+		<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+			  <ul>
+			  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Register</span></li>
+				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Sign in</span>
+				  </li>
+			  </ul>
+			<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+				<div class="facts">
+					<div class="register">
+						<form>
+							<input placeholder="Name" type="text" required="">
+							<input placeholder="Email Address" type="text" required="">
+							<input placeholder="Password" type="password" required="">
+							<input placeholder="Confirm Password" type="password" required="">
+								<div class="sign-up">
+									<input type="submit" value="Create Account"/>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+				<div class="facts">
+					<div class="register">
+						<form>
+							<input placeholder="Email Address" class="mail" type="text" required="">
+							<input placeholder="Password" class="lock" type="password" required="">
+							<div class="sign-up">
+								<input type="submit" value="Sign in"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
